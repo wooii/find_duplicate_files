@@ -1,4 +1,3 @@
-
 find_duplicate_files <- function(x) {
   # Find the duplicate files in a folder, i.e. the files with the same md5 vlues.
   # x: a string of file folder, e.g. "C:/example_folder"
@@ -14,4 +13,4 @@ find_duplicate_files <- function(x) {
   return(y)
 }
 
-d_files <- find_duplicate_files(x = "E:/iPhone 7")
+d_files <- find_duplicate_files(x = "E:/iPhone_7")
